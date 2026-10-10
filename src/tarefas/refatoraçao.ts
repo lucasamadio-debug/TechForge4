@@ -6,7 +6,7 @@ class Consumidor {
 
   constructor(nome: string, idade: number, email: string) {
     if (!nome || nome.trim() === "") {
-      throw new Error("O nome do consumidor não pode estar vazio.");
+      throw new Error("O nome do consumidor não pode estar vazio preecha.");
     }
     if (idade < 0) {
       throw new Error("A idade não pode ser um valor negativo.");
