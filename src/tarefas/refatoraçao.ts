@@ -86,7 +86,7 @@ try {
   gerenciador.adicionar(new Consumidor("Roberto Alves", 19, "roberto@email.com"));
   gerenciador.adicionar(new Consumidor("Fernanda Dias", 33, "fernanda@email.com"));
 
-  console.log("=== LISTA DE CONSUMIDORES ===");
+  console.log("LISTA DE CONSUMIDORES");
   gerenciador.getLista().forEach(c => console.log(c.formatarExibicao()));
 
   console.log("ANÁLISE ESTATÍSTICA ");
