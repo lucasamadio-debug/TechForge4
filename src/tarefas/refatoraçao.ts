@@ -82,7 +82,7 @@ try {
 
   gerenciador.adicionar(new Consumidor("Ana Silva", 30, "ana@email.com"));
   gerenciador.adicionar(new Consumidor("Carlos Souza", 22, "carlos@email.com"));
-  gerenciador.adicionar(new Consumidor("Mariana Lima", 45, "mariana@email.comb"));
+  gerenciador.adicionar(new Consumidor("Mariana Lima", 45, "mariana@email.com"));
   gerenciador.adicionar(new Consumidor("Roberto Alves", 19, "roberto@email.com"));
   gerenciador.adicionar(new Consumidor("Fernanda Dias", 33, "fernanda@email.com"));
 
